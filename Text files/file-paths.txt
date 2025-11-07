@@ -1,0 +1,1 @@
+On the Friday, 7th November, I learned about file paths, they included: Absolute and Relative file paths. for relative, they have a reference point while absolute provide the actual file path from the root directory onwards, for example C:\User\Philbert\Documents\Images\phil.png as compared to Images\phil.png of relative file paths.
