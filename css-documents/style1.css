@@ -1,0 +1,14 @@
+body {
+	background-color: lightblue;
+	font-family: "Comic Sans MS";
+	color:black;
+	font-size:100%;
+}
+h1{
+	border:2px solid yellow;
+	padding:10px;
+	color:red;
+}
+h3{
+	color:tomato;
+}
