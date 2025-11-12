@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image maps in Html</title>
+	<link rel="stylesheet" href="../css-documents/style1.css">
+</head>
+<body>
+	<h1>IMAGE MAPPING IN HTML</h1>
+	<p>I have learnt image mapping in html today, the 12th day of November, 2025.</p>
+	<img src="../images/imgmap.jpg" alt="shapes" usemap="#shapes" style="width:500px; height:600px">
+	<map name="shapes">
+		<area shape="rect" coords="1218, 1697, 1780, 2331" title="This is a cub" onclick="myfunction()">
+		<area shape="poly" coords="1656, 1238, 1476, 1403, 1548, 1645, 1723, 1661, 1816, 1795, 1367" title="This is a pear">
+		<area shape="rect" coords="1996, 1248, 2805, 2444" title="This is a paper-towel" onclick="myfunction()">
+	</map>
+	<script>
+		function myfunction() {
+			alert("You clicked on the paper-towel or cube");
+		}
+	</script>
+</body>
+<!--to be continued, read chat corrections under image map issues -->
+</html>
