@@ -1,0 +1,19 @@
+body{
+	background-image:url("../images/grass.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	color:black;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:100%;
+}
+
+img{
+	width:600px;
+	height:500px;
+	float:right;
+}
+
+h1{
+	text-align: center;
+}
