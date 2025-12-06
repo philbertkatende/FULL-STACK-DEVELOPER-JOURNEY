@@ -1,0 +1,65 @@
+ul{
+	display:block;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	background-color:lightgreen;
+	list-style-type:none;
+}
+
+li a{
+	text-decoration:none;
+	color:black;
+	float:left;
+	padding:20px;
+}
+
+li a:hover {
+	background-color:lightyellow;
+}
+
+caption{
+	text-align:center;
+	color:green;
+	font-family:'Comic Sans MS';
+}
+
+table, th, td{
+	border-collapse:collapse;
+	border:solid 2px black;
+	width:50%;
+	border-style:dotted;
+}
+
+th, td{
+	text-align:left;
+	padding:15px;
+}
+
+tr:nth-child(even){
+	background-color:lightgray;
+}
+
+tr:hover {
+	background-color: lightyellow;
+}
+
+
+h1{
+	text-align: center;
+}
+
+div.mycontainer{
+	overflow:auto;
+	width:100%;
+
+}
+div.mycontainer div{
+	width:33%;
+	float:left;
+}
+
+div.love{
+	display: flex;
+	width:100%;
+}

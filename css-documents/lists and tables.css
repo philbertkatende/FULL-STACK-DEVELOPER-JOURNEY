@@ -26,3 +26,28 @@ li a:hover{
 	background-color:gray;
 
 }
+
+caption{
+	text-align:center;
+	color:red;
+}
+
+table, th, td{
+	border:2px solid lightgray;
+	border-style:outset;
+	border-collapse:collapse;
+	text-align:left;
+
+} 
+th, td{
+	padding:16px;
+
+}
+
+tr:hover {
+	background-color:lightgreen;
+}
+tr:nth-child(even){
+	background-color:#888888;
+	border-bottom:2px solid #888888;
+}
