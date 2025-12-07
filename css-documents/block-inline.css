@@ -63,3 +63,8 @@ div.love{
 	display: flex;
 	width:100%;
 }
+
+div.grid-container{
+	display:grid;
+	grid-template-columns: 33% 33% 30%;
+}
