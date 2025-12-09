@@ -1,0 +1,36 @@
+/*This is the css document for the id attribute element */
+ul{
+	display: block;
+	margin:0;
+	background-color: #053729;
+	padding:0;
+	overflow:hidden;
+	list-style-type: none;
+}
+
+li a{
+	padding:20px;
+	float:left;
+	text-decoration: none;
+	font-family:"comic sans MS";
+	color:ghostwhite;
+	font-size: 100%;
+
+
+}
+
+li a:hover{
+	background-color: #982341;
+}
+
+.mygrid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+
+}
+
+#myheader{
+	text-align: center;
+	color:#645321;
+
+}
