@@ -1,0 +1,40 @@
+<! DOCTYPE html>
+	<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="../images/kplogo.jpg">
+		<link rel="stylesheet" href="../css-documents/html-id.css">
+		<title>html id element</title>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#HOME">HOME</a></li>
+			<li><a href="#ABOUT">ABOUT</a></li>
+			<li><a href="#PROGRAMS">PROGRAMS</a></li>
+			<li><a href="#CONTACT US">CONTACT US</a></li>
+		</ul>
+		<h1 id="myheader">HTML ID ATTRIBUTE</h1>
+    <div class="mygrid">
+      <div style="background-color:#458921;">
+		<h2>HTML id attribute in css</h2>
+		<p>The HTML id attribute can be used to link html elements into css properties, in this case one uses it to style specific elements. </p>
+	</div>
+	<div style="background-color:#098765;">
+	<h2 id="chem">HTML id attribute as a bookmark</h2>
+	<p>The html id attribute can be used to link specific elements from different websites or on the same page especially for webpages that are long</p>
+</div>
+<div style="background-color:#123456;">
+	<h2 id="magic">HTML id attribute in Javascript</h2>
+	<p>The ID html attribute will allow Javascript to provide specific commands to the element.</p>
+	<button onclick="displayResult()">Click to see Magic</button>
+	<script>
+		function displayResult(){
+			document.getElementById("magic").innerHTML = "This is the magic you have been waiting for";
+		}
+	</script>
+	<a href="#chem">click me</a>
+</div>
+</div>
+</body>
+</html>
