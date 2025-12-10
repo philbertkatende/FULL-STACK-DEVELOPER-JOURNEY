@@ -1,0 +1,17 @@
+/* this css document will style the */
+
+title{
+	color:green;
+}
+
+.bat{
+	text-align: center;
+}
+
+#color{
+	padding:20px;
+	border:none;
+	border-radius:5px;
+	color:#009876;
+	background-color: #763432;
+}
