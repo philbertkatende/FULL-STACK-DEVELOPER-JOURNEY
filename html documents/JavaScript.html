@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Introduction to JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="../images/kplogo.jpg">
+	<link rel="stylesheet" href="../css-documents/JavaScript.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Introduction to JavaScript</h1>
+<button type="button" onclick="alert('I have to get locked in')" title="this is a button">CLICK ME</button>
+<p id="time">This will have time</p>
+<button type="button" onclick="myFunction()">Display time</button> <br><br>
+<script>
+	function myFunction(){
+		document.getElementById("time").innerHTML = Date();
+		document.getElementById("time").style.backgroundColor = "#567490";
+		document.getElmentById('time').style.color = "yellow";
+		document.getElementById('time').style.fontSize ="50px";
+	}
+</script>
+<noscript>This browser doesn't display JavaScript</noscript>
+
+<img src="../images/pear.jpg" id="picture" width="200" height="250">
+<script>
+	function fruit(fp) {
+		var delicious;
+		if (fp == 0) {
+			delicious = "../images/pear.jpg"
+		} else {
+			delicious = "../images/eye.jpg"
+		}
+	
+	document.getElementById("picture").src = delicious;
+}
+	</script>
+<p>	<button type="button" onclick="fruit(0)">Fruit</button> <br>
+	<button type="button" onclick="fruit(1)">Eye</button></p>
+</body>
+</html>
