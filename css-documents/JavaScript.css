@@ -1,0 +1,14 @@
+button{
+	background-color: forestgreen;
+	border:2px solid yellow;
+	border-radius: 20px;
+	font-size: 150%;
+	padding: 20px;
+	cursor: pointer;
+	color: white;
+
+}
+
+h1{
+	text-align:center;
+}
