@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Comic Sans MS";
+}
+
+h1{
+	text-align: center;
+}
+
+header{
+	padding: 20px;
+	background-color: #509123;
+	text-align:center;
+	font-size: 50px;
+}
+
+nav{
+	width: 30%;
+	padding: 20px;
+	background-color: #053421;
+	float: left;
+	height: 400px;
+}
+
+nav li a{
+	text-decoration: none;
+	}
+
+nav li a:hover{
+	background-color: #623410;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+article{
+	width: 70%;
+	padding: 20px;
+	background-color: #436290;
+	float: left;
+	height: 400px;
+}
+
+footer{
+	background-color: #529763;
+	padding: 20px;
+
+}
+
+section::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+@media (max-width:600px) {
+	nav, article{
+		width: 100%;
+		height:auto;
+	}
+}
