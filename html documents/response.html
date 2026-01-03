@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="katende philbert">
+	<meta name="keywords" content="responsive design, html, css, viewport, media queries">
+	<meta name="description" content="responsive design of webpages">
+	<meta http-equiv="refresh" content="10">
+	<link rel="stylesheet" href="../css-documents/rensponse.css">
+	<link rel="icon" type="image/x-icon" href="../images/kplogo.jpg">
+	<title>Responsive web design</title>
+</head>
+
+<body>
+	<h1>Responsive Web Design</h1>
+	<p>This entiles designing webpages that respond to changes in viewport size</p>
+	<p>This includes use of meta tag in the head tag, responsive images, text, media queries and responsive web design</p>
+	<h2 style="font-size:5vw;">Responsive Text</h2>
+	<p>The title above is a responsive text that responds when there is a change in screen size</p>
+
+	<h2>Responsive images</h2>
+	<p>The css width, max-width and picture are used to create responsive images</p>
+
+	<h3>Responsive images using the css width property</h3>
+	<p>The css width property is set to 100%, this allows the image to be responsive to viewport size but it increase the image beyound its initial size</p>
+	<img src="../images/eye.jpg" style="width:100%" alt="The artistic eye">
+
+	<p>To counter this issue of the image increasing beyound its size, the max-width css property is set to 100%. This allow the image to retain is actual dimensions without the expansion above</p>
+	<img src="../images/eye.jpg" style="max-width: 100%;" alt="The colorful eye">
+
+	<h2>Media Queries</h2>
+	<div class="left">
+		<p>Left content</p>
+	</div>
+
+	<div class="main">
+		<p>The main Content</p>
+	</div>
+
+	<div class="right">
+		<p>The right content</p>
+	</div>
+
+	<h2>Responsive images</h2>
+	<p>Responsive images can also be designed in webpages using the picture tag</p>
+
+	<picture>
+		<source srcset="../images/parrot.jpg" media="(max-width:600px)">
+		<source srcset="../images/wallpaper.jpg" media="(max-width:1500px)">
+		<source srcset="../images/sente.jpg">
+		<img src="../images/parrot.jpg" style="max-width:100%;"alt="Parrots can immitate human phonation"> 
+	</picture>
+
+	<h2>Responsive web design</h2>
+	<p>This example below will highlight my last design today</p>
+
+	<div class="head">
+		<h2>Pharmacy</h2>
+	</div>
+
+	<div style="overflow: auto;">
+		<div class="left1">
+			<p><a href="#Pharmacology">Pharmacology</a></p>
+			<p><a href="#Pharmaceutics">Pharmaceutics</a></p>
+			<p><a href="#Pharmacognosy">Pharmacognosy</a></p>
+			<p><a href="#Pharmaceutical Microbiology">Pharmaceutical Microbiology</a></p>
+		</div>
+
+		<div class="main1">
+			<h3>Pharmacology</h3>
+			<p>This is the study of drugs, include their effects to the body and the effects of the body to drugs.</p>
+			<p>Phramcology had aspects like pharmacokinetics and pharmacokinetics both of which have been talked about in the above pharmacology definition.</p>
+		</div>
+
+		<div class="right1">
+			<h3>Pharmacovigilence</h3>
+			<p>This is the scienc of detecting,assessing, understanding, and preventing adverse drug reactions.</p>
+		</div>
+	</div>
+	<div class="bottom1">
+		<p>This a part of our responsive design</p>
+	</div>
+			
+			
