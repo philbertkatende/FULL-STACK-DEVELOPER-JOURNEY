@@ -1,0 +1,87 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+	font-family: "Comic sans MS";
+}
+
+h2{
+	text-align: center;
+}
+
+.left{
+	background-color: #307603;
+	width: 20%;
+	float: left;
+	padding: 20px;
+}
+
+.main{
+	background-color: #888888;
+	float: left;
+	padding: 20px;
+	width: 60%;
+}
+
+.right{
+	background-color: #307631;
+	float: left;
+	padding: 20px;
+	width: 20%;
+}
+
+@media screen and (max-width:800px){
+	.left, .main, .right {
+		width:100%;
+	}
+}
+
+.head{
+	padding:20px;
+	background-color: #435423;
+
+}
+
+.left1{
+	float:left;
+	width: 20%;
+	margin-top: 7px;
+}
+
+.left1 a{
+	text-decoration:none;
+	width:100%;
+	padding: 10px;
+	margin-top: 7px;
+	display: block;
+	background-color: grey;
+	color: black;
+}
+
+
+.main1{
+	float:left;
+	width: 60%;
+}
+
+.right1{
+	float:left;
+	width: 20%;
+	padding: 15px;
+	margin-top: 7px;
+	background-color: #765432;
+}
+
+.bottom1{
+	padding: 20px;
+	background-color: #547464;
+	margin-top: 7px;
+}
+
+@media only screen (max-width:620px){
+	.left1, main1, right1{
+		width:100%;
+	}
+}
+
