@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+		forms in html
+	</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>Forms in HTML</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Below is a form</h2>
+			<form action="google.com">
+				<label>
+					Full Name:
+					<input type="text">
+				</label>
+			</form>
+			<hr>
+			<form action="google.com">
+				<label for="email">
+					Email Address:</label>
+					<input type="email" id="email" placeholder="example@gamil.com">
+				
+			</form>
+			<hr>
+			<form action="url">
+				<label for="email">Email Address:</label>
+				<input type="email" id="email" name="email">
+				<buton type="submit">Submit form</buton>
+				<button type="reset">Reset Form</button>
+
+			</form>
+		</section>
+		<hr>
+		<section>
+			<h2>Complete form with validation parameters</h2>
+			<form action="add url here">
+				<label for="email">Emai Address (Field required)</label>
+					<input
+					required
+					id="email"
+					name="email"
+					type="email"
+					minlength="4"
+					maxlength="64"
+				>
+				<button type="submit">Submit form</button>
+			</form>
+</section>
+</main>
+</body>
+</html>
